@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="830.0" prefWidth="1174.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="845.0" layoutX="-12.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1233.0">
+         <fill>
+            <RadialGradient centerX="0.5110803324099723" centerY="0.6187648456057007" radius="0.846820809248555">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.21476510067114093">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9496644295302014">
+                     <color>
+                        <Color red="0.95686274766922" green="0.4745098054409027" blue="0.24313725531101227" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9966442953020134">
+                     <color>
+                        <Color red="1.0" green="0.6166666746139526" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.615686297416687" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fx:id="athletePhoto1" fitHeight="326.0" fitWidth="249.0" layoutX="28.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/carter-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="#003263" layoutX="276.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carter Sobera 6'3" textAlignment="CENTER" wrappingWidth="672.7632751464844">
+         <font>
+            <Font name="Kai Regular" size="58.0" />
+         </font>
+      </Text>
+      <Text fill="#003263" layoutX="250.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Career Games: 19" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="Kai Regular" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#003263" layoutX="277.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assists per Game: 0.0" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="Kai Regular" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#003263" layoutX="597.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Points per Game: 0.2" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="Kai Regular" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#003263" layoutX="624.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rebounds per Game: 0.5" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="Kai Regular" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#003263" layoutX="26.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carter Sobera, an Auburn University basketball player, hails from Mountain Brook, Alabama. Before joining Auburn, he attended Mountain Brook High School, showcasing his early potential and skill on the basketball court. His performance in high school led him to Auburn, where he has continued to develop as a guard for the team​​." wrappingWidth="1126.3745422363281">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Text>
+      <Button layoutX="535.0" layoutY="394.0" mnemonicParsing="false" onAction="#switchToAuburnScene" onMouseClicked="#switchToAuburnScene" prefHeight="55.0" prefWidth="149.0" text="Go Back" />
+      <ImageView fx:id="athletePhoto11" fitHeight="184.0" fitWidth="173.0" layoutX="1011.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/auburn_tigers_logo_secondary_1985_sportslogosnet-5499.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="830.0" prefWidth="1174.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="853.0" layoutX="-39.0" layoutY="-23.0" stroke="BLACK" strokeType="INSIDE" width="1261.0">
+               <fill>
+                  <RadialGradient centerX="0.5110803324099723" centerY="0.6187648456057007" radius="0.846820809248555">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.21476510067114093">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9496644295302014">
+                           <color>
+                              <Color red="0.95686274766922" green="0.4745098054409027" blue="0.24313725531101227" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9966442953020134">
+                           <color>
+                              <Color red="1.0" green="0.6166666746139526" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.615686297416687" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </fill>
+            </Rectangle>
+            <ImageView fx:id="athletePhoto11" fitHeight="326.0" fitWidth="249.0" layoutX="28.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/Addarin_PAZQL-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text fill="#003263" layoutX="276.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Addarin Scott 6'9" textAlignment="CENTER" wrappingWidth="672.7632751464844">
+               <font>
+                  <Font name="Kai Regular" size="58.0" />
+               </font>
+            </Text>
+            <Text fill="#003263" layoutX="250.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Career Games: 13" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+               <font>
+                  <Font name="Kai Regular" size="33.0" />
+               </font>
+            </Text>
+            <Text fill="#003263" layoutX="277.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assists per Game: 0.1" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+               <font>
+                  <Font name="Kai Regular" size="33.0" />
+               </font>
+            </Text>
+            <Text fill="#003263" layoutX="597.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Points per Game: 0.5" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+               <font>
+                  <Font name="Kai Regular" size="33.0" />
+               </font>
+            </Text>
+            <Text fill="#003263" layoutX="624.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rebounds per Game: 0.4" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+               <font>
+                  <Font name="Kai Regular" size="33.0" />
+               </font>
+            </Text>
+            <Text fill="#003263" layoutX="26.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Addarin Scott, a promising talent from Dallas, Texas, made a significant impact in junior college basketball at Navarro College before committing to Auburn University. Starting to play basketball only in eighth grade, Scott quickly developed into a notable player. At Navarro, he played 31 games, averaging 9.3 points on 53% shooting, 6.8 rebounds, and nearly two blocks per game. Standing at 6-foot-9, Scott visited Auburn and was impressed by the campus and team, deciding to enroll with plans to play as a forward. His transition to Auburn marks a new chapter in his basketball journey, with two years of eligibility left​​." wrappingWidth="1126.3745422363281">
+               <font>
+                  <Font name="System Bold Italic" size="29.0" />
+               </font>
+            </Text>
+            <Button layoutX="535.0" layoutY="394.0" mnemonicParsing="false" onAction="#switchToAuburnScene" onMouseClicked="#switchToAuburnScene" prefHeight="55.0" prefWidth="149.0" text="Go Back" />
+            <ImageView fx:id="athletePhoto111" fitHeight="184.0" fitWidth="173.0" layoutX="1011.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/auburn_tigers_logo_secondary_1985_sportslogosnet-5499.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</Pane>

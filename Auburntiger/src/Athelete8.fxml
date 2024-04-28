@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="830.0" prefWidth="1174.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="862.0" layoutX="-61.0" layoutY="-11.0" stroke="BLACK" strokeType="INSIDE" width="1250.0">
+         <fill>
+            <RadialGradient centerX="0.5110803324099723" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.6000000238418579" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fx:id="athletePhoto1" fitHeight="326.0" fitWidth="249.0" layoutX="47.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/DENVERJONES-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="390.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Denver Jones" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="System Bold Italic" size="58.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="252.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Career Games: 95" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="277.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assists per Game: 1.4" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="597.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Points per Game: 9.7" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="623.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rebounds per Game: 2.2" textAlignment="CENTER" wrappingWidth="404.6908874511719">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="31.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K.D. Johnson is a talented basketball player for the Auburn Tigers, part of the Southeastern Conference (SEC). He was born on May 25, 2001, and hails from Decatur, Georgia. Johnson attended Southwest DeKalb High School in Decatur, where he excelled in basketball, earning Georgia Class 5A Player of the Year as a junior. He then completed a postgraduate season at Hargrave Military Academy in Chatham, Virginia, where he continued to showcase his skills on the court. Before joining Auburn, Johnson played for the Georgia Bulldogs during his college career​​." wrappingWidth="1005.9978332519531">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="856.0" layoutY="39.0" mnemonicParsing="false" onAction="#switchToAuburnScene" onMouseClicked="#switchToAuburnScene" prefHeight="108.0" prefWidth="267.0" text="Go Back" />
+   </children>
+</Pane>
